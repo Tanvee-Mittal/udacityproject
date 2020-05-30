@@ -1,0 +1,25 @@
+footer {
+    background-color:  rgb(197, 196, 196);
+    margin: 5px 0 0;
+    display: grid;
+    grid-template-rows: 70px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(229, 229, 229);
+    padding: 5em;
+  }
+  
+  footer div a {
+    display: inline;
+  }
+  
+  footer div {
+    margin: 0 auto;
+  }
+  
+  footer div a img {
+    display:inline-table;
+    width: 50px;
+    padding: 0 5px;
+    margin-bottom: 5px;
+  }

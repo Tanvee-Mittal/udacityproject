@@ -1,0 +1,161 @@
+/* Typography */
+
+body {
+  font-family: sans-serif;
+}
+.blog-header p{
+  text-decoration: underline dotted #f2b5d4;
+  text-align: right;
+  color: #f2cc8f;
+  font-size: 18px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: right;
+  color: #b2f7ef;
+  font-size: 50px;
+  text-shadow: 2px 2px #f7d6e0;
+}
+
+.blog-header {
+  padding: 60px;
+  height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url(/images/travel-blog.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  border-radius: 0.3em;
+  border-color: red;
+  margin: 10px;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 100vh; 
+  background:#f1f1f1;
+  padding: 20px;
+  border: 2px solid #333533;
+  
+}
+
+/* Style the list inside the menu */
+nav ul {
+  display: grid;
+  padding: 1px;
+  display:grid;
+  justify-content: left;
+}
+ 
+nav ul li{
+  align-self: center;
+    flex-direction: row-reverse;
+    padding-right: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: disc;
+}
+nav ul li a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:hover{
+  background-color: cadetblue;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 100vh; 
+  border-style: ridge;
+  border-color: #f6bd60;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: grid;
+  clear: both;
+  border-style: ridge;
+  background-color: #f1f1f1;
+}
+
+/* Style the footer */
+footer {
+  background-color: #f1f1f1;
+  padding: 5em;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border-style: ridge;
+  display: grid;
+  grid-template-rows: 70px;
+  margin: 5px 0 0;
+}
+
+.avatar{
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+blockquote{
+  border: ridge;
+  margin: 10px;
+  padding:10px;
+  opacity: 0.5;
+}
+.more-blogs {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  grid-template-rows: minmax(120px, auto);
+  align-items: center;
+  margin: 5 5px;
+  border-bottom: 1px solid rgb(249, 249, 249);
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.more-blogs-header img {
+  width: 100%;
+  border-radius: 2px 2px 2px 2px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  display: flex;
+}
+.more-blogs content{
+  margin: 10px;
+  padding:100px;
+}
+.more-blogs:hover{
+  background-color: #cfdbd5;
+}
+
+
+footer div a {
+  display: inline;
+}
+
+footer div {
+  margin: 0 auto;
+}
+
+footer div a img {
+  display:inline-table;
+  width: 50px;
+  padding: 0 5px;
+  margin-bottom: 5px;
+}
+
+
+
+
